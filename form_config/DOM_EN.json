@@ -1,0 +1,94 @@
+{
+    "data": {
+        "sender": [
+            {
+                "title": "Source of Fund",
+                "name": "sofunding_id",
+                "desc": "",
+                "type": "dropdownId",
+                "path": "/get/data/sofunding",
+                "minLength": 1,
+                "maxLength": 2
+            },
+            {
+                "title": "Purpose",
+                "name": "purpose_id",
+                "desc": "",
+                "type": "dropdownId",
+                "path": "/get/data/purpose",
+                "minLength": 1,
+                "maxLength": 2
+            },
+            {
+                "title": "Occupation",
+                "name": "occupation_id",
+                "desc": "",
+                "type": "dropdownId",
+                "path": "/get/data/occupation",
+                "minLength": 1,
+                "maxLength": 2
+            }
+        ],
+        "receiver": [
+            {
+                "title": "City",
+                "name": "city_id",
+                "desc": "",
+                "type": "dropdownId",
+                "path": "/get/data/city",
+                "minLength": 2,
+                "maxLength": 3
+            },
+            {
+                "title": "Phone",
+                "name": "phone",
+                "desc": "",
+                "type": "numeric",
+                "minLength": 8,
+                "maxLength": 12
+            },
+            {
+                "title": "Prefix",
+                "name": "phone_prefix",
+                "desc": "",
+                "type": "numeric",
+                "minLength": 1,
+                "maxLength": 3
+            }
+        ],
+        "additional": [
+            {
+                "title": "Beneficiary Number",
+                "name": "beneficiary_number",
+                "desc": "",
+                "type": "number",
+                "minLength": 7,
+                "maxLength": 12
+            },
+            {
+                "title": "Beneficiary Name",
+                "name": "beneficiary_name",
+                "desc": "",
+                "type": "string",
+                "minLength": 7,
+                "maxLength": 12
+            },
+            {
+                "title": "Amount",
+                "name": "identity_number",
+                "desc": "",
+                "type": "string float",
+                "minLength": 10,
+                "maxLength": 16
+            },
+            {
+                "title": "Remark",
+                "name": "remark",
+                "desc": "",
+                "type": "alphanumeric",
+                "minLength": 20,
+                "maxLength": 30
+            }
+        ]
+    }
+}

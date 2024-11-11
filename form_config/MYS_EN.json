@@ -1,0 +1,146 @@
+{
+    "data": {
+        "sender": [
+            {
+                "title": "Source of Fund",
+                "name": "sofunding_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/sofunding/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Purpose",
+                "name": "purpose_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/purpose/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Occupation",
+                "name": "occupation_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/occupation/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Relation",
+                "name": "relation_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/relationship/intl",
+                "data":"master_store_id"
+            }
+        ],
+        "receiver": [
+            {
+                "title": "ID Type",
+                "name": "identity_type",
+                "widget":"DROPDOWN",
+                "path": "/get/data/identityType/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "ID Number",
+                "name": "identity_number",
+                "widget":"INPUT",
+                "min_length": 10,
+                "max_length": 16
+            },
+            {
+                "title": "Firstname",
+                "name": "first_name",
+                "type": "name",
+                "widget":"INPUT",
+                "min_length": 2,
+                "max_length": 30
+            },
+            {
+                "title": "Lastname",
+                "name": "last_name",
+                "type": "name",
+                "widget":"INPUT",
+                "min_length": 2,
+                "max_length": 30
+            },
+            {
+                "title": "Address",
+                "name": "address",
+                "type": "address",
+                "widget":"INPUT",
+                "min_length": 2,
+                "max_length": 100
+            },
+            {
+                "title": "City Name",
+                "name": "city_name",
+                "widget":"INPUT",
+                "min_length": 4,
+                "max_length": 30
+            },
+            {
+                "title": "States",
+                "name": "states",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 30
+            },
+            {
+                "title": "phone",
+                "name": "phone",
+                "type": "phone",
+                "widget":"INPUT",
+                "min_length": 8,
+                "max_length": 12
+            },
+            {
+                "title": "Postal Code",
+                "name": "postal_code",
+                "type": "number",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 10
+            },
+            {
+                "title": "Nationality",
+                "name": "country_id",
+                "widget":"DROPDOWN",
+                "path":"/get/data/country"
+            },
+            {
+                "title": "Bank Branch Code",
+                "name": "bank_branch_code",
+                "type": "number",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 5,
+                "additional":true
+            },
+            {
+                "title": "Beneficiary Number",
+                "name": "beneficiary_number",
+                "type": "number",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 50,
+                "additional":true
+            },
+            {
+                "title": "Beneficiary Name",
+                "name": "beneficiary_name",
+                "type": "name",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 50,
+                "additional":true
+            },
+            {
+                "title": "Remark",
+                "name": "remark",
+                "type": "text",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 50,
+                "additional":true
+            }
+        ]
+    }
+}

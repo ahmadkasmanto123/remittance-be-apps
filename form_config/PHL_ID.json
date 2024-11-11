@@ -1,0 +1,137 @@
+{
+    "data": {
+        "sender": [
+            {
+                "title": "Sumber dana",
+                "name": "sofunding_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/sofunding/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Tujuan Pengiriman",
+                "name": "purpose_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/purpose/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Pekerjaan",
+                "name": "occupation_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/occupation/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Hubungan dengan penerima",
+                "name": "relation_id",
+                "widget":"DROPDOWN",
+                "path": "/get/data/relationship/intl",
+                "data":"master_store_id"
+            }
+        ],
+        "receiver": [
+            {
+                "title": "Jenis Identitas",
+                "name": "identity_type",
+                "widget":"DROPDOWN",
+                "path": "/get/data/identityType/intl",
+                "data":"master_store_id"
+            },
+            {
+                "title": "Nomor Identitas",
+                "name": "identity_number",
+                "widget":"INPUT",
+                "min_length": 10,
+                "max_length": 16
+            },
+            {
+                "title": "Nama Depan",
+                "name": "first_name",
+                "type": "name",
+                "widget":"INPUT",
+                "min_length": 2,
+                "max_length": 30
+            },
+            {
+                "title": "Nama Belakang",
+                "name": "last_name",
+                "type": "name",
+                "widget":"INPUT",
+                "min_length": 2,
+                "max_length": 30
+            },
+            {
+                "title": "Alamat",
+                "name": "address",
+                "type": "address",
+                "widget":"INPUT",
+                "min_length": 2,
+                "max_length": 100
+            },
+            {
+                "title": "Kota",
+                "name": "city_name",
+                "widget":"INPUT",
+                "min_length": 4,
+                "max_length": 30
+            },
+            {
+                "title": "Negara Bagian",
+                "name": "states",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 30
+            },
+            {
+                "title": "Nomor Telepon",
+                "name": "phone",
+                "type": "phone",
+                "widget":"INPUT",
+                "min_length": 8,
+                "max_length": 12
+            },
+            {
+                "title": "Kode Pos",
+                "name": "postal_code",
+                "type": "number",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 10
+            },
+            {
+                "title": "Kebangsaan",
+               "name": "country_id",
+                "widget":"DROPDOWN",
+                "path":"/get/data/country"
+            },
+            {
+                "title": "Nomor Rekening Penerima",
+                "name": "beneficiary_number",
+                "type": "number",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 50,
+                "additional":true
+            },
+            {
+                "title": "Name Penerima",
+                "name": "beneficiary_name",
+                "type": "name",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 50,
+                "additional":true
+            },
+            {
+                "title": "Pesan",
+                "name": "remark",
+                "type": "text",
+                "widget":"INPUT",
+                "min_length": 5,
+                "max_length": 50,
+                "additional":true
+            }
+        ]
+    }
+}

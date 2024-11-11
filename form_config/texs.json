@@ -1,0 +1,36 @@
+{
+    "data":{
+        "sop_id":6,
+        "master_store_id":151,
+        "transaction_amount":"5000000",
+        "transaction_amount_receiver":"327.02",
+        "phone": "233535662413",
+        "phone_prefix": "62",
+        "sender":{
+            "sofunding_id":35,
+            "purpose_id":56,
+            "occupation_id":133,
+            "relation_id":168
+        },
+        "receiver":{
+            "phone":"63545849949",
+            "first_name":"Roy",
+            "last_name":"Za",
+            "identity_type":251,
+            "identity_number":"123445888474",
+            "country_id":137,
+            "states":"BATANGAS",
+            "city_name":"Manila",
+            "postal_code":"1234561",
+            "address":"lavender no 3"
+        },
+        "additional":{
+            "remark":"pesan",
+            "beneficiary_number":"123273784959",
+            "beneficiary_name":"Roy Za"
+        }
+    },
+    "device_id": "780e8fc3-d8e9-4743-bb4c-d4e622aa8713",
+    "extref":"AntoTEsitn-00009",
+    "lang":"en"
+}
